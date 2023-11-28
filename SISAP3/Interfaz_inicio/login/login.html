@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulario Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+  <section class="form-login">
+    <h5>Bienvenido</h5>
+    <form action="../../form-result.php" target="_blank">
+
+      <p>
+
+        Tipo de usuario
+
+        <select name="usuario" id="usuario">
+          <option value="administrativo">Administrativo</option>
+          <option value="instructor">Instructor</option>
+          <option value="aprendiz">Aprendiz</option>
+        </select>
+      </p>
+    </form>
+    <label for="exampleInputEmail1" class="form-label">Usuario</label>
+    <input class="controls" type="text" name="usuario" value="" placeholder="">
+    <label for="exampleInputEmail1" class="form-label">Contraseña</label>
+    <input class="controls" type="password" name="contrasena" value="" placeholder="">
+    <br><br><br>
+    <section id="section-boton">
+      <button class="boton-personalizado" onclick="redirigir()">Ingresar</button>
+    </section>
+
+    <br><br>
+    <p><a href="#">¿Olvidastes tu Contraseña?</a></p>
+  </section>
+  <script src="../js/inicio.js"></script>
+</body>
+
+</html>

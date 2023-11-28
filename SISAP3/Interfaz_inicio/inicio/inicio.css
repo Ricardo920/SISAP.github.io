@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #F5F5F5;
+}
+.container{
+  width: 1100px;
+  background: #3E7551;
+  margin: 1px auto;
+}
+.superior{
+
+  height: 80px;
+  background:#3E7551 ;
+  overflow: hidden;
+}
+.logo{
+  float: left;
+  width: 170px;
+  padding: 100;
+}
+.menu{
+  float: left;
+  padding: 30px;
+}
+.opciones li{
+  float: left;
+  list-style: none;
+}
+.opciones li a{
+  color: aliceblue;
+  padding: 20px;
+  text-decoration: none;
+}
+.cuerpo{
+  overflow: hidden;
+  background: #F5F5F5;
+}
+.caja{
+  
+  float:left;
+  width: 500px;
+  margin: 10px;
+}
+.bienvenida{
+  text-align: center;
+}
+.informacion{
+
+  text-align: center;
+  padding: 15px 0;
+}
+.lado2{
+  text-align: center;
+}
+.contenido{
+  text-align: center;
+}
+/*footer*/
+.foot{
+  background:#D9D9D9 ;
+  overflow: hidden;
+}
+.izquierda{
+  float: left;
+  width: 500px;
+}
+.derecha{
+  float: left;
+  width: 500px;
+  float: right;
+  list-style: none;
+}
